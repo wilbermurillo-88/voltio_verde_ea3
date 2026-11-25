@@ -1,0 +1,17 @@
+{
+  "name": "voltio-verde-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "crear-bd": "node src/scripts/crear-bd.js",
+    "dev": "node --watch src/servidor.js",
+    "start": "node src/servidor.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "express": "5.1.0"
+  }
+}
